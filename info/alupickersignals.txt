@@ -1,0 +1,3 @@
+0 = add
+1 = alufunc
+2 = sub

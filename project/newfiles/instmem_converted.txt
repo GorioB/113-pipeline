@@ -1,0 +1,30 @@
+lui $ra, -21023
+sw $ra, 0($zero)
+lw $s4, 4($zero)
+sw $s4, 0($zero)
+addi $at, $0, -21555
+addi $v0, $at, 21554
+add $v1, $at, $v0
+add $fp, $v1, $ra
+sw $fp, 0($zero)
+andi $a0, $fp, -21555
+andi $a2, $a0, 30583
+and $a1, $a2, $at
+sw $a1, 0($zero)
+ori $s5, $s4, 4369
+or $s6, $s5, $a1
+sw $s6, 0($zero)
+xor $s7, $3, $5
+sw $s7, 0($zero)
+nor $t8, $31, $2
+sw $t8, 0($zero)
+slt $t9, $s7, $t8
+sw $t9, 0($zero)
+slti $k0, $t8, -1
+sw $k0, 0($zero)
+bne $25, $26, 1
+j 25
+beq $t8, $k0, 1
+j 27
+sw $fp, 0($zero)
+j 29

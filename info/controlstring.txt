@@ -1,0 +1,7 @@
+PCSource = 9:8
+WriteEnable=7
+ALUSrcB = 6
+WriteAddr = 5
+MemWrite = 4
+WriteData = 3
+ALUControl = 2:0

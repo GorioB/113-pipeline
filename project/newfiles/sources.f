@@ -1,0 +1,11 @@
+adder.v
+ALU.v
+functoaluop.v
+instdecode.v
+instmem.v
+datamem.v
+mux.v
+proc.v
+regfile.v
+register.v
+testbench.v
